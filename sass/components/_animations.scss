@@ -1,0 +1,65 @@
+@keyframes apparitionObjet 
+{
+    from 
+    {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to 
+    {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes disparitionChargement 
+{
+  99%
+  {
+    transform: translate(0);
+  }
+  100%
+  {
+    transform: translate(1000000px);
+  }
+}
+
+@keyframes rotate1 
+{
+
+  from 
+  {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+  }
+
+  to 
+  {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(1turn);
+  }
+}
+
+@keyframes rotate2 
+{
+  from 
+  {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+  }
+
+  to 
+  {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(1turn);
+  }
+}
+
+@keyframes rotate3 
+{
+  from 
+  {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+  }
+
+  to 
+  {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(1turn);
+  }
+}

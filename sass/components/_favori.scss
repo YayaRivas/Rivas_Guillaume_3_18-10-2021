@@ -1,0 +1,35 @@
+@mixin favori 
+{
+    &--neutre
+    {
+        position: absolute;
+        opacity: 1;
+        transition-duration: 0.5s;
+    }
+    &:hover &--neutre
+    {
+        opacity: 0;
+    }
+    &:focus &--neutre
+    {
+        opacity: 0;
+    }
+    &--active
+    {
+        opacity: 0;
+        transition-duration: 0.5s;
+        background-color: $couleur-primaire;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right bottom, $couleur-secondaire, $couleur-primaire);
+    }
+    &:hover &--active
+    {
+        opacity: 1;
+    }
+    &:focus &--active
+    {
+        opacity: 1;
+    }
+}
