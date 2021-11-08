@@ -1,0 +1,18 @@
+{
+  "name": "oc-p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YayaRivas/YayaRivas_3_10-10-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YayaRivas/YayaRivas_Guillaume_3_10-10-2021/issues"
+  },
+  "homepage": "https://github.com/YAyaRivas/Rivas_Guillaume_3_18-10-2021#readme"
+}
